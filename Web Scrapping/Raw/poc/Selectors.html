@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    p{
+        font-size : 2rem;
+    }
+    /* class => .*/
+    .red{
+        color : red;
+    }
+
+    /*children selector => elemnet 1 element 2*/
+    /* children selector => class 1 class2 */
+    div p{
+        background-color: green;
+    }
+    .outer .red{
+         background-color: blueviolet; 
+    }
+    .red.larger{
+        font-size : 5rem;
+    } * 
+     /* id => #   */
+     #myid{
+        color : blue;
+    }
+    </style>
+</head>
+<body>
+    <h1> Hello All</h1>
+    <p> Lorem 1</p>
+    <p class = "red"> Lorem 2</p>
+    <p class = "red"> Lorem 2</p>
+    
+
+    <div class = "outer">
+        <p class = "red"> Lorem 4</p>
+        <p class = "red larger"> Lorem 5</p>
+    </div>
+    <p id = "myid"> Lorem 6</p>
+</body>
+</html>
