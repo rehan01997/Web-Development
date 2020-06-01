@@ -1,0 +1,1 @@
+node fbLiker.js "credentials.json" "hindustantimes" 
